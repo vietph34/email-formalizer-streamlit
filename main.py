@@ -2,7 +2,6 @@ import config
 import streamlit as st
 from langchain import PromptTemplate
 from langchain_openai import OpenAI
-config.set_environment()
 
 template = """
     Below is an email that may be poorly worded.
