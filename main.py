@@ -1,4 +1,3 @@
-import config
 import streamlit as st
 from langchain import PromptTemplate
 from langchain_openai import OpenAI
